@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fresh Eye</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+    background:#070812;
+    color:white;
+    scroll-behavior:smooth;
+}
+.fresh{
+    color:#00f7ff; 
+    font-weight:bold;
+}
+
+.eye{
+    color:#b400ff; 
+    font-weight:bold;
+}
+.fresh{
+    font-size:30px;
+}
+
+.eye{
+    font-size:30px;
+}
+/* NAV */
+nav{
+
+    position:fixed;
+    width:100%;
+    top:0;
+    display:flex;
+    justify-content:center; 
+    align-items:center;
+    padding:15px 30px;
+    background:rgba(0,0,0,0.7);
+    gap:40px; 
+}nav a{
+    color:white;
+    margin:0 10px;
+    text-decoration:none;
+}
+
+/* HERO */
+
+.hero{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    background:radial-gradient(circle,#00f7ff33,transparent);
+}
+
+.hero{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+
+    background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("file:///C:/Users/USER/OneDrive/Desktop/fresh-eye/WhatsApp%20Image%202026-04-18%20at%205.15.15%20PM.jpeg");
+
+    background-size:cover;
+    background-position:center;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 20px;
+    margin:10px;
+    border-radius:10px;
+    text-decoration:none;
+}
+
+.wa{background:#25D366;color:black;}
+.ig{background:#E1306C;color:white;}
+
+/* SECTIONS */
+section{
+    padding:100px 10%;
+}
+
+.title{
+    font-size:30px;
+    margin-bottom:20px;
+    color:#00f7ff;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#12131c;
+    padding:20px;
+    border-radius:15px;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:30px;
+    opacity:0.6;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div>
+        <span class="fresh">FRESH</span>
+        <span class="eye">EYE</span>
+    </div>
+
+    <div>
+             <a href="#laser">Laser Tag </a>
+            <a href="#hyper">Hyper Game </a>
+        <a href="#vr">VR Games</a>
+       <a href="offers.html" class="btn">🎉 BD Packages</a>
+        <a href="gallery.html" class="btn">📸 Open Gallery</a>
+
+        <a href="#contact">Contact Us</a>
+
+    </div>
+</nav>
+<!-- HERO -->
+
+<div class="hero">
+    <div>
+        <h1></h1>
+        <p> </p>
+    </div>
+</div>
+
+<!-- VR -->
+<section id="vr">
+    <div class="title">🥽 VR GAMES</div>
+
+    <div class="grid">
+        <div class="card">VR Plank</div>
+        <div class="card">VR Roller Coaster</div>
+        <div class="card">VR Racing</div>
+        <div class="card">VR Ring</div>
+        <div class="card">VR Simulator </div>
+    </div>
+</section>
+
+<!-- LASER -->
+<section id="laser">
+    <div class="title">🔫 LASER TAG</div>
+
+    <div class="grid">
+        <div class="card">3 - 12 Players</div>
+        <div class="card">15 / 20 / 30 / 60 min</div>
+        <div class="card">Dark light Area Battles</div>
+    </div>
+</section>
+
+<!-- HYPER -->
+<section id="hyper">
+    <div class="title">⚡ HYPER GAME</div>
+
+    <div class="grid">
+        <div class="card">1 - 5 Players</div>
+        <div class="card">15 Minutes Challenge Game</div>
+    </div>
+</section>
+<section id="gallery">
+
+    <div class="title">🎬</div>
+
+    <div class="grid">
+        <div class="card">
+            <img src="https://scontent.famm10-2.fna.fbcdn.net/v/t39.30808-6/480192843_2759133284273170_5279349071045074926_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=53a332&_nc_ohc=mRX4OQEW718Q7kNvwHMmz6U&_nc_oc=AdqW04W9_Q77pA3XyVWIO_nEV2bk6rHWgahV3v8TOwcopGzIJrymlktNlUSi3l4XlxcU5gylZyM4-xEsxO9UamMm&_nc_zt=23&_nc_ht=scontent.famm10-2.fna&_nc_gid=HFXNBgyzHV9xJD09wlEGAA&_nc_ss=7a389&oh=00_Af3Gk9sRPN7R0D1DtsA4f5IHAozrTxK0TCEs6kOvm8N5EQ&oe=69E833FC"
+                 style="width:100%; border-radius:10px;">
+            <p> LASER TAG</p>
+        </div>
+
+
+       
+        <!-- HYPER GAME IMAGE -->
+        <div class="card">
+            <img src="https://scontent.famm10-1.fna.fbcdn.net/v/t39.30808-6/469795542_18351643339122386_6731212751845100971_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=13d280&_nc_ohc=8xKfjnNRo7oQ7kNvwFR8SXg&_nc_oc=Adr9xjvFJt3l-k40JdG_YxQFElSbhHN_MNBeAHQsSG2XRAovsUd1sr-IOGwyuM-e47P1OVv5IwrzgYkJByI-B8bq&_nc_zt=23&_nc_ht=scontent.famm10-1.fna&_nc_gid=ZXLCf2XC6GTAtg--FfoANg&_nc_ss=7a389&oh=00_Af0z1o083DxvgL-i-5ax3idBxdyConznxTxB3K41-Rdnhg&oe=69E82D5A"
+                 style="width:100%; border-radius:10px;">
+            <p> HYPER GAME</p>
+        </div>
+
+
+        <div class="card">
+            <img src="file:///C:/Users/USER/OneDrive/Desktop/fresh-eye/hero.jpg.jpeg"
+                 style="width:100%; border-radius:10px;">
+            <p>VR Games</p>
+        </div>
+
+
+       
+</section>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact">
+    <div class="title">📞 CONTACT US </div>
+
+    <div class="card">
+        <p>📞 +962799070409</p>
+        <p>📧 Fresheye.amman@gmail.com</p>
+        <p>📸 Instagram: @fresheye_jo</p>
+        <p>🎵 TikTok: @fresheye_jo</p>
+
+        <br>
+
+        <a class="btn wa" href="https://wa.me/962799070409">WhatsApp</a>
+        <a class="btn ig" href="https://www.instagram.com/fresheye_jo/">Instagram</a>
+<a class="btn" style="background:#555; color:white;" href="mailto:Fresheye.amman@gmail.com">
+    Send Email
+</a>
+<a class="btn" style="background:#000; color:white;" href="https://www.tiktok.com/@fresheye_jo" target="_blank">
+    TikTok
+</a>
+    </div>
+</section>
+<section id="hours">
+
+    <div class="title">🕒 WORKING HOURS</div>
+
+    <div class="card">
+            <p> Saturday: 12:00 PM - 12:00 AM</p>
+        <p> Sunday: 2:00 PM - 12:00 AM</p>
+        <p> Monday: 2:00 PM - 12:00 AM</p>
+        <p> Tuesday: 2:00 PM - 12:00 AM</p>
+        <p> Wednesday: 2:00 PM - 12:00 AM</p>
+        <p> Thursday: 2:00 PM - 12:00 AM</p>
+        <p> Friday: 2:00 PM - 12:00 AM</p>
+        
+
+    </div>
+
+</section>
+
+<footer>
+    © Fresh Eye 2026
+</footer>
+
+</body>
+</html>

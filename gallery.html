@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Gallery - Fresh Eye</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+    background:#070812;
+    color:white;
+}
+
+.title{
+    text-align:center;
+    font-size:30px;
+    color:#00f7ff;
+    margin:30px 0;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:20px;
+}
+@media (max-width: 900px){
+    .grid{
+        grid-template-columns:repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px){
+    .grid{
+        grid-template-columns:1fr;
+    }
+}
+.card{
+    background:#12131c;
+    padding:10px;
+    border-radius:15px;
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1 class="title">📸 Gallery</h1>
+
+<div class="grid">
+
+    <div class="card">
+        <img src="file:///C:/Users/USER/OneDrive/Desktop/fresh-eye/hero.jpg.jpeg">
+    </div>
+
+    <div class="card">
+        <img src="file:///C:/Users/USER/OneDrive/Desktop/fresh-eye/hero1.jpg.jpeg">
+    </div>
+<video controls style="width:100%; border-radius:10px;">
+    <source src="video.mp4" type="video/mp4">
+</video>
+<video controls style="width:100%; border-radius:10px;">
+    <source src="file:///C:/Users/USER/OneDrive/Desktop/fresh-eye/video1.mp4">
+</video>
+<video controls style="width:100%; border-radius:10px;">
+    <source src="file:///C:/Users/USER/OneDrive/Desktop/fresh-eye/video2.mp4">
+</video>
+<video controls style="width:100%; border-radius:10px;">
+    <source src="file:///C:/Users/USER/OneDrive/Desktop/fresh-eye/%D8%AC%D9%85%D8%B9%D9%88%D8%A7%20%D8%A7%D8%B5%D8%AD%D8%A7%D8%A8%D9%83%D9%85%20%D9%88%D8%AA%D8%B9%D8%A7%D9%84%D9%88%D9%88%D9%88%F0%9F%94%A5%F0%9F%94%A5%23fun.mp4">
+</video>
+<video controls style="width:100%; border-radius:10px;">
+    <source src=file:///C:/Users/USER/OneDrive/Desktop/fresh-eye/Best%20plans%F0%9F%94%A5%F0%9F%94%A5%F0%9F%94%A5%20%23theboulevard%20%23lasertag%20%23%D8%A7%D9%84%D8%A7%D8%B1%D8%AF%D9%86%F0%9F%87%AF%F0%9F%87%B4%20%23vr%20%23fun%20(1).mp4
+">
+</video>
+
+</body>
+</html>
